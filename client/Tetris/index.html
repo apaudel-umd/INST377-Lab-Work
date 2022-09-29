@@ -1,16 +1,16 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="style.css">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Adhish Paudel's JS Tetris</title>
-</head>
-<body>
-    <h3>Score: <span class="score">0</span></h3>
-    <button class="start">START</button>
-    <div class="grid">
+  </head>
+  <body>
+    <h3>Score: <span id="score">0</span></h3>
+    <button id="start">START/PAUSE</button>
+    <div class="container">
+      <div class="grid">
         <div></div>
         <div></div>
         <div></div>
@@ -211,6 +211,37 @@
         <div></div>
         <div></div>
         <div></div>
+        <div class="taken"></div>
+        <div class="taken"></div>
+        <div class="taken"></div>
+        <div class="taken"></div>
+        <div class="taken"></div>
+        <div class="taken"></div>
+        <div class="taken"></div>
+        <div class="taken"></div>
+        <div class="taken"></div>
+        <div class="taken"></div>
+      </div>
+
+      <div class="mini-grid">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
     </div>
-</body>
+  </body>
+  <script src="script.js"></script>
 </html>
