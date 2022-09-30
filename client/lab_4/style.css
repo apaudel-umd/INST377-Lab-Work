@@ -34,7 +34,7 @@ body {
     ‘Bitsream Vera Sans’, ‘Trebuchet MS’, Verdana, ‘Verdana Ref’, sans-serif;
   font-weight: 400;
   line-height: 1.5;
-  background-color: #335C67;
+  background-color: #C6D4FF;
 }
 
 a {
@@ -93,8 +93,8 @@ form {
   /* this will push other blocks out of the way */
 
   /* colors */
-  background-color: #FFF3B0;
-  color: #4a4a4a;
+  background-color: #7A82AB;
+  color: #d2f5f3;
 
   /* shapes */
   border-radius: 6px;
@@ -128,18 +128,19 @@ form {
 }
 
 .left_section {
-  background-color: #E09F3E;
+  background-color: #9CFFD9;
   flex: 0 1 auto;
   margin: 1rem;
   padding: 1.5rem;
 }
 
 .right_section {
-  background-color: #9E2A2B;
+  background-color: #7CE577;
   flex: 1 2 auto;
   margin: 1rem;
   display: flex;
   flex-flow: column;
+  align-items: center;
 }
 
 /*
@@ -151,7 +152,7 @@ form {
 .footer {
   flex-shrink: 0;
   padding: 1rem;
-  background-color: rgba(0, 139, 139, 0.8);
+  background-color: #1E2D24;
   font-size: 1.2rem;
   font-weight: 600;
 }
@@ -295,9 +296,13 @@ form label {
   /* Rules in here will only apply when a screen is the correct size */
   /* check it out by using your developer tools to shrink your screen-size */
   .container {
-    background-color: #335C67;
+    background-color: #C6D4FF;
     flex-direction: column;
     justify-content: right;
     align-items: center;
+  }
+  .box {
+    width: 100%;
+    align-items: flex-start;
   }
 }
